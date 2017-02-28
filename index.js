@@ -1,5 +1,5 @@
 var through = require('through2');
-var coffee = require('coffee-script');
+var coffee = require('coffeescript');
 var gutil = require('gulp-util');
 var applySourceMap = require('vinyl-sourcemaps-apply');
 var path = require('path');

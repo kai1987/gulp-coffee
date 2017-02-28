@@ -1,5 +1,8 @@
 [![Build Status](https://secure.travis-ci.org/contra/gulp-coffee.png?branch=master)](https://travis-ci.org/contra/gulp-coffee)
 
+
+# change coffee to coffee/v2 to support es6
+
 ## Information
 
 <table>
@@ -19,7 +22,7 @@
 ## Usage
 
 ```javascript
-var coffee = require('gulp-coffee');
+var coffee = require('gulp-coffee2');
 
 gulp.task('coffee', function() {
   gulp.src('./src/*.coffee')
